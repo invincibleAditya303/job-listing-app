@@ -83,32 +83,57 @@ https://github.com/user-attachments/assets/5ebaf951-dff1-4302-880c-f0757f35def3
 ├── package.json
 
 ├── public
+
 |     ├── favicon.ico
+
 |     ├── index.html
+
 |     ├── logo192.png
+
 |     ├── logo512.png
+
 |     ├── manifest.json
+
 |     ├── robots.txt
 
 ├── src
+
 |     ├── App.js
+
 |     ├── App.test.js
+
 |     ├── components
+
 |     |     ├── FilterGroup
+
 |     |     |     ├── index.js
+
 |     |     |     ├── styledComponents.js
+
 |     |     ├── Header
+
 |     |     |     ├── index.js
+
 |     |     |     ├── styledComponents.js
+
 |     |     ├── JobCard
+
 |     |     |     ├── index.js
+
 |     |     |     ├── styledComponents.js
+
 |     |     ├── JobsSection
+
 |     |     |     ├── index.js
+
 |     |     |     ├── styledComponents.js
+
 |     ├── index.css
+
 |     ├── index.js
+
 |     ├── reportWebVitals.js
+
 |     ├── setupTests.js
 
 ## License
