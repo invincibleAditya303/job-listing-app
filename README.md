@@ -75,9 +75,13 @@ https://github.com/user-attachments/assets/5ebaf951-dff1-4302-880c-f0757f35def3
 
 ## Project Structure
 ├── .gitignore
+
 ├── README.md
+
 ├── package-lock.json
+
 ├── package.json
+
 ├── public
 |     ├── favicon.ico
 |     ├── index.html
@@ -85,6 +89,7 @@ https://github.com/user-attachments/assets/5ebaf951-dff1-4302-880c-f0757f35def3
 |     ├── logo512.png
 |     ├── manifest.json
 |     ├── robots.txt
+
 ├── src
 |     ├── App.js
 |     ├── App.test.js
