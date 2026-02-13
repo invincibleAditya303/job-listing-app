@@ -48,9 +48,8 @@ export const LocationContainer = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    @(width <= 776px) {
-        width: 80%;
-    }
+    @media (width: 776px) {
+        width: 70%;
 `
 
 export const LocationDetailsIconContainer = styled.div`
@@ -59,7 +58,7 @@ export const LocationDetailsIconContainer = styled.div`
     align-items: center;
 
     @media (width <= 776px) {
-        min-width: 12vw;
+        min-width: 10vw;
     }
 `
 
@@ -80,8 +79,13 @@ export const SalaryDetailsText = styled.p`
     font-family: "Roboto";
     font-weight: 600;
 
-    @media (width <= 776px) {
+    @media(width: 776px) {
         width: 14px;
+        padding-right: 30px;
+    }
+
+    @media (width: 576px) {
+        padding-left: 50px;
     }
 `
 
