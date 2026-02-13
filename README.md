@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# Job-Listing-App
+A simple and responsive **Job Board interface built using React and Styled Components**, allowing users
+to browse, search and filter job listings in real time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a **Job listing application** that lets users:
+- View a list of job oppurtunities
+- Search by job title with real-time filtering
+- Filter by **location** (Remote/on-site)
+- Filter by **job type** (Internship/Fulltime)
+- Sort listings alphabetically
+- View job descriptions in each card
+  
+This interface was built using **React** and **Styled Components**
 
-## Available Scripts
+## Features
+- Display Job cards with title, company, location, type and description
+- Real-time search filtering
+- Location filter
+- Job type filter
+- Alphabetical sorting
+- Responsive Layout
+- Styled with styled-components
 
-In the project directory, you can run:
+## Tech Stack
+- **React** - UI framework
+- **Styled Components** - CSS-in-JS styling library
+- **JvaScript (ES6+)** - Core language
+- **npm** - Package management
 
-### `npm start`
+## Visual Preview
+### Desktop View
+<img width="1366" height="720" alt="Screenshot 2026-02-13 104226" src="https://github.com/user-attachments/assets/284f7c92-ad2a-44c5-8a2e-61103306eefd" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tab View
+<img width="395" height="505" alt="Screenshot 2026-02-13 104836" src="https://github.com/user-attachments/assets/0838690b-3e8a-4df3-b23b-a20ac43b84b2" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Mobile View
+<img width="309" height="541" alt="Screenshot 2026-02-13 105251" src="https://github.com/user-attachments/assets/3d92fb99-d629-489f-a9d4-0a142519646d" />
 
-### `npm test`
+## Demo Video
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+https://github.com/user-attachments/assets/5ebaf951-dff1-4302-880c-f0757f35def3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
+### Clone the repository
+  git clone https://github.com/invincibleAditya303/job-listing-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Navigate to project foleder
+  cd job-listing-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install Dependencies
+  npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Start the developement Server
+  npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+  The page will reload when you make changes.\
+  You may also see any lint errors in the console.
 
-## Learn More
+  ### `npm run build`
+  
+  Builds the app for production to the `build` folder.\
+  It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+  The build is minified and the filenames include the hashes.\
+  Your app is ready to be deployed!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure
+├── .gitignore
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+├── README.md
 
-### Code Splitting
+├── package-lock.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+├── package.json
 
-### Analyzing the Bundle Size
+├── public
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+|     ├── favicon.ico
 
-### Making a Progressive Web App
+|     ├── index.html
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+|     ├── logo192.png
 
-### Advanced Configuration
+|     ├── logo512.png
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+|     ├── manifest.json
 
-### Deployment
+|     ├── robots.txt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+├── src
 
-### `npm run build` fails to minify
+|     ├── App.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+|     ├── App.test.js
+
+|     ├── components
+
+|     |     ├── FilterGroup
+
+|     |     |     ├── index.js
+
+|     |     |     ├── styledComponents.js
+
+|     |     ├── Header
+
+|     |     |     ├── index.js
+
+|     |     |     ├── styledComponents.js
+
+|     |     ├── JobCard
+
+|     |     |     ├── index.js
+
+|     |     |     ├── styledComponents.js
+
+|     |     ├── JobsSection
+
+|     |     |     ├── index.js
+
+|     |     |     ├── styledComponents.js
+
+|     ├── index.css
+
+|     ├── index.js
+
+|     ├── reportWebVitals.js
+
+|     ├── setupTests.js
+
+## License
+This project is an open-source and released under MIT License
+
