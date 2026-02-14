@@ -2,6 +2,9 @@
 A simple and responsive **Job Board interface built using React and Styled Components**, allowing users
 to browse, search and filter job listings in real time.
 
+## Deployment Link
+Link - https://job-listing-app-liart.vercel.app
+
 ## Overview
 This project is a **Job listing application** that lets users:
 - View a list of job oppurtunities
